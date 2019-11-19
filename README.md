@@ -2,6 +2,10 @@
 
 WordPress theme to demonstrate lazy load.
 
+## Demo
+
+![](lazy-load.gif)
+
 ## The Concept
 
 We first add the lightweight image URL in the src and srset attributes, and the actual image URL and actual srcset into data-src and data-srcset respectively.
@@ -18,3 +22,6 @@ Twitter - [@imranhsayed](https://twitter.com/imranhsayed)
 
 Github - [imranhsayed](https://github.com/imranhsayed)
 
+## Demo 2
+
+![](lazy-load-2.gif)
