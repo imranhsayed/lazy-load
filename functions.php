@@ -79,6 +79,9 @@ if ( ! function_exists( 'lazy_load_setup' ) ) :
 			'flex-width'  => true,
 			'flex-height' => true,
 		) );
+
+		add_image_size( 'lazy-12x8', 12, 8, array( 'center', 'center' ) );
+
 	}
 endif;
 add_action( 'after_setup_theme', 'lazy_load_setup' );
@@ -123,6 +126,7 @@ function lazy_load_scripts() {
 	wp_enqueue_style( 'lazy-load-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'lazy-load-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	wp_enqueue_script( 'lazy-load-main', get_template_directory_uri() . '/js/main.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'lazy-load-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
