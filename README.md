@@ -1,6 +1,6 @@
 ## Lazy Load
 
-WordPress theme to demonstrate lazy load.
+WordPress theme to demonstrate lazy load
 
 ## Demo
 
